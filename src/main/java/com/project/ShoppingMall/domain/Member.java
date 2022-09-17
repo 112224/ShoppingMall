@@ -13,6 +13,12 @@ public class Member {
     private String  name;
     private String  location;
 
+    public Member(String eMail, String password, String name, String location) {
+        this.eMail = eMail;
+        this.password = password;
+        this.name = name;
+        this.location = location;
+    }
 }
 
 
